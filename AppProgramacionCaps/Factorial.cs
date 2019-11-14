@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AppProgramacionCaps
 {
-    class Factorial
+    public static class Factorial
     {
         /// <summary>
         /// calcula el factorial del numero
