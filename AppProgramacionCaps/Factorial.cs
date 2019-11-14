@@ -8,6 +8,11 @@ namespace AppProgramacionCaps
 {
     class Factorial
     {
+        /// <summary>
+        /// calcula el factorial del numero
+        /// </summary>
+        /// <param name="num"></param>
+        /// <returns></returns>
         public static long fact (int num)
         {
             long f = 1;
@@ -16,6 +21,13 @@ namespace AppProgramacionCaps
             for (int i = 1; i <= num; i++)
                 f = f * i;
             return f;
+        }
+        /// <summary>
+        /// Calcula el cuadrado de un numero
+        /// </summary>
+        public static double cuadrado(double num)
+        {
+            return (num * num);
         }
     }
 }
