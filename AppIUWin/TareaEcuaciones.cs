@@ -51,8 +51,8 @@ namespace AppIUWin
             }
             double x1 = Ecuacion2dogrado.ecuacion2dogrado.ecu2dosuma(a, b, c);
             double x2 = Ecuacion2dogrado.ecuacion2dogrado.ecu2doresta(a, b, c);
-            this.x1.Text = x1.ToString();
-            this.x2.Text = x2.ToString();
+            this.x1.Text = x1.ToString("0.00");
+            this.x2.Text = x2.ToString("0.00");
         }
 
         private void btnsalir_Click(object sender, EventArgs e)
